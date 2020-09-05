@@ -1,0 +1,13 @@
+{
+"name": "Small plumbus wall",
+"description": "Works like Newtonian fluid, namely reflects a pool.",
+"type": "DeflectorWall",
+"health": "1200",
+"size": "1",
+"hitTime": "1",
+"maxDamageDeflect": "10000",
+"requirements": [
+{"item": "plumbys", "amount": "32"}
+],
+"category": "defense"
+}

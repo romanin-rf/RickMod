@@ -1,0 +1,33 @@
+{
+"type": "BurstTurret",
+"name": "Green Quantum Cannon",
+"description": "This is a gun created by madman Rick, shoots Green Matter",
+"targetAir": true,
+"targetGround": true,
+"health": 500,
+"size": 2,
+"inaccuracy": 1,
+"reload": 100,
+"shots": 4,
+"range": 800,
+"burstSpacing": 10,
+"ammo": {
+"green-materia": {
+"speed": 20,
+"damage": 150,
+"bulletWidth": 12,
+"bulletHeight": 15,
+"shootEffect": "reactorsmoke",
+"smokeEffect": "smoke",
+"ammoMultiplier": 2
+},},
+"requirements": [
+{ "item": "copper", "amount": 200},
+{ "item": "lead", "amount": 150},
+{ "item": "titanium", "amount": 75},
+{ "item": "silicon", "amount": 95},
+{ "item": "graphite", "amount": 100}
+],
+"category": "turret",
+"shootSound": ""
+}

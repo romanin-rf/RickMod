@@ -1,0 +1,19 @@
+{
+"type": "massDriver",
+"name" : "Rick's portal gun",
+"description": "If in the series Rick and Morty is made to create portals, then in the game for teleport items",
+"hasPower": false,
+"size" : 2,
+"itemCapacity" : 100,
+"reloadTime" : 100,
+"buildTime": 100,
+"range": 700,
+"requirements": [
+{ "item": "silicon", "amount": 40 },
+{ "item": "copper", "amount": 70 },
+{ "item": "lead", "amount": 60 },
+{ "item": "green-materia", "amount": 1 },
+{ "item": "titanium", "amount": 30 }
+],
+"category": "distribution"
+}

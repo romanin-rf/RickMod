@@ -1,0 +1,27 @@
+{
+"type": "GenericSmelter",
+"name": "Dark Store of Unknown Substance",
+"description": "Here you can buy the stolen Unknown substance ...",
+"health": 500,
+"liquidCapacity": 0,
+"itemCapacity": 10,
+"outputItem":  {"item": "secret-item", "amount": 5},
+"size": 2,
+"hasPower": false,
+"hasLiquids": false,
+"hasItems": true,
+"craftTime": 100,
+"updateEffect": "none",
+"consumes": {
+"items": {"items": [
+{"item": "florbo", "amount": 10}
+]}},
+"requirements": [
+{ "item": "copper", "amount": 250 },
+{ "item": "lead", "amount": 250 },
+{ "item": "titanium", "amount": 50 },
+{ "item": "florbo", "amount": 200 }],
+"category": "crafting",
+"idleSound": "click",
+"idleSoundVolume": 50
+}

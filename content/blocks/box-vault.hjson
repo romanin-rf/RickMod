@@ -1,0 +1,15 @@
+{
+"name": "Box",
+"description": "Ordinary box",
+"type": "Vault",
+"itemCapacity": 100,
+"hasItems": true,
+"health": 1500,
+"size": 2,
+"requirements": [
+{ "item": "copper", "amount": 100 },
+{ "item": "lead", "amount": 35 },
+{ "item": "graphite", "amount": 30 }
+],
+"category": "effect"
+}

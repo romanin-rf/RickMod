@@ -1,0 +1,18 @@
+{
+	"name": "Rick Drilling Rig",
+	"description": "This is just a super-rig that one of the Ricks created.  As he said, the perpetual motion machine is the basis",
+	"type": "Drill",
+	"size": 2,
+	"tier": 4,
+	"drillTime": 0.1,
+	"requirements": [
+		{ "item": "copper", "amount": 140 },
+		{ "item": "graphite", "amount": 70 },
+		{ "item": "titanium", "amount": 100 },
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "lead", "amount": 50 },
+		{ "item": "green-materia", "amount": 1 },
+	],
+	"category": "production",
+	"research": "laser-drill"
+}

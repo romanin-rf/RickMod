@@ -1,0 +1,26 @@
+{
+"type": "GenericSmelter",
+"name": "Rick's copper store",
+"description": "This is a Rick store that sells copper.  Inject Florbo Copper Discharged",
+"health": 4000,
+"itemCapacity": 20,
+"outputItem": {"item": "copper", "amount": 8},
+"size": 2,
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"craftTime": 600,
+"updateEffect": "steam",
+"consumes": {"power": 0.5,
+"items": {
+"items": [
+{ "item": "florbo", "amount": 5}]}},
+"requirements": [
+{ "item": "copper", "amount": 200},
+{ "item": "lead", "amount": 80},
+{ "item": "florbo", "amount": 50},
+{ "item": "titanium", "amount": 75}],
+"category": "crafting",
+"idleSound": "pokypka",
+"idleSoundVolume": 100
+}

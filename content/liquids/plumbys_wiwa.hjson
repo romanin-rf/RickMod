@@ -1,0 +1,10 @@
+{
+"name": "Plumbic fluid",
+"description": "These are melted plumbus ",
+"temperature": 0,
+"flammability": 0,
+"heatcapacity": 0,
+"explosiveness": 0,
+"viscosity": 0,
+"color": "#FF9B9A"
+}

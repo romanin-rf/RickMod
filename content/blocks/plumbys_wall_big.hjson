@@ -1,0 +1,13 @@
+{
+"name": "Large plumbus wall",
+"description": "This wall works like Newtonian fluid, namely it does not let bullets pass",
+"type": "DeflectorWall",
+"health": "2500",
+"size": "2",
+"hitTime": "1",
+"maxDamageDeflect": "10000",
+"requirements": [
+{"item": "plumbys", "amount": "64"}
+],
+"category": "defense"
+}

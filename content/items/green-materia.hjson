@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Green matter",
+"description": "This green thing is very dangerous, but Rick managed to stabilize it and create a portal gun",
+"color": "#008000",
+"radioactivity": 20,
+"explosiveness": 20,
+"flammability": 0,
+"hardness": "2",
+"cost": 1,
+"alwaysUnlocked": false
+}

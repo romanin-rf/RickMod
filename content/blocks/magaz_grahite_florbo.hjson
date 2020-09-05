@@ -1,0 +1,26 @@
+{
+"type": "GenericSmelter",
+"name": "Rick's Graphite Store",
+"description": "This is Rick's store that sells graphite.  Inject floorbo graphite displayed",
+"health": 4000,
+"itemCapacity": 20,
+"outputItem": {"item": "graphite", "amount": 5},
+"size": 2,
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"craftTime": 250,
+"updateEffect": "steam",
+"consumes": {"power": 0.5,
+"items": {
+"items": [
+{ "item": "florbo", "amount": 10}]}},
+"requirements": [
+{ "item": "copper", "amount": 200},
+{ "item": "lead", "amount": 80},
+{ "item": "florbo", "amount": 50},
+{ "item": "plumbys", "amount": 25}],
+"category": "crafting",
+"idleSound": "pokypka",
+"idleSoundVolume": 100
+}

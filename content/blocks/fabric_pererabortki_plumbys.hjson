@@ -1,0 +1,28 @@
+{
+"type": "Separator",
+"name": "Processing of plumbus fluid (part 2)",
+"description": "One of Ricks, noted that at the plumbus factory, there were problems with the sale and Rick came up with a technology for processing plumbus soon panted this technology",
+"health": 5000,
+"itemCapacity": 20,
+"itemliquids": 50,
+"results": [
+{"item": "metaglass", "amount": 3},
+{"item": "plastanium", "amount": 10}],
+"size": 2,
+"hasPower": true,
+"hasItems": true,
+"hasLiquids": true,
+"craftTime": 200,
+"updateEffect": "smeltsmoke",
+"consumes": {"power": 0.9,
+"liquid": {"liquid": "plumbys_wiwa", "amount": 0.025}},
+ "requirements": [
+  { "item": "florbo", "amount": 200},
+  { "item": "copper", "amount": 300},
+  { "item": "silicon", "amount": 100},
+  { "item": "titanium", "amount": 150},
+ ],
+ "category": "crafting",
+ "idleSound": "respawning",
+ "idleSoundVolume": 0.1
+}

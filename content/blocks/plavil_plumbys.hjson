@@ -1,0 +1,27 @@
+{
+"type": "GenericSmelter",
+"name": "Plumbus smelter (part 1)",
+"description": "Here plumbus is melted for further processing.  This was invented by one of Ricks to solve problems with the overproduction of plumbus",
+"health": 3500,
+"itemCapacity": 20,
+"liquidCapacity": 20,
+"outputLiquid": {"liquid": "plumbys_wiwa", "amount": 10},
+"size": 2,
+"hasPower": true,
+"hasLiquids": true,
+"hasItems": true,
+"craftTime": 10,
+"updateEffect": "none",
+"consumes": {"power": 0.5,
+"items": {
+"items": [
+{ "item": "plumbys", "amount": 5}]}},
+"requirements": [
+{ "item": "copper", "amount": 250},
+{ "item": "titanium", "amount": 175},
+{ "item": "florbo", "amount": 200},
+{ "item": "silicon", "amount": 100}],
+"category": "crafting",
+"idleSound": "click",
+"idleSoundVolume": 100
+}

@@ -1,0 +1,26 @@
+{
+"type": "GenericSmelter",
+"name": "Rick's plumbus store",
+"description": "This is a Rick store that sells plumbus.  Enter the floorbo displayed plumbus",
+"health": 4000,
+"itemCapacity": 20,
+"outputItem": {"item": "plumbys", "amount": 3},
+"size": 2,
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"craftTime": 300,
+"updateEffect": "steam",
+"consumes": {"power": 0.5,
+"items": {
+"items": [
+{ "item": "florbo", "amount": 5}]}},
+"requirements": [
+{ "item": "lead", "amount": 300},
+{ "item": "titanium", "amount": 85},
+{ "item": "graphite", "amount": 50},
+{ "item": "florbo", "amount": 50}],
+"category": "crafting",
+"idleSound": "pokypka",
+"idleSoundVolume": 100
+}

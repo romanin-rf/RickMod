@@ -1,0 +1,13 @@
+{
+"name": "Big florboc wall",
+"description": "This wall is made of flobro.  Very hard walls",
+"type": "DeflectorWall",
+"health": "8000",
+"size": "2",
+"hitTime": "1",
+"maxDamageDeflect": "10000",
+"requirements": [
+{"item": "florbo", "amount": "12"}
+],
+"category": "defense"
+}

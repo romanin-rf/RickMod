@@ -1,0 +1,27 @@
+{
+"type": "GenericSmelter",
+"name": "Rick's Lead Shop",
+"description": "Here Rick sells lead ...",
+"health": 1500,
+"itemCapacity": 10,
+"outputItem":  {"item": "lead", "amount": 8},
+"size": 2,
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"craftTime": 150,
+"updateEffect": "none",
+"consumes": {
+"power": 0.1,
+"items": {"items": [
+{"item": "florbo", "amount": 2}
+]}},
+"requirements": [
+{ "item": "lead", "amount": 55 },
+{ "item": "copper", "amount": 120 },
+{ "item": "florbo", "amount": 200 },
+{ "item": "titanium", "amount": 45 }],
+"category": "crafting",
+"idleSound": "pokypka",
+"idleSoundVolume": 100
+}

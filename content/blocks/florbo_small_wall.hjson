@@ -1,0 +1,13 @@
+{
+"name": "Small florboc wall",
+"description": "The wall is made of florbo ...",
+"type": "DeflectorWall",
+"health": "3000",
+"size": "1",
+"hitTime": "1",
+"maxDamageDeflect": "2000",
+"requirements": [
+{"item": "florbo", "amount": "6"}
+],
+"category": "defense"
+}

@@ -1,0 +1,31 @@
+{
+"type": "DoubleTurret",
+"name": "Plumbus gun",
+"description": "This gun was made by one of the Ricks.  It is not strange, but he was a hyperfan of plumbus.  No matter how it sounds, but it is.",
+"targetAir": true,
+"targetGround": true,
+"health": 10000,
+"size": 2,
+"inaccuracy": 1,
+"reload": 1,
+"shots": 10,
+"range": 700,
+"burstSpacing": 2,
+"ammo": {
+"plumbys": {
+"speed": 30,
+"damage": 200,
+"bulletWidth": 20,
+"bulletHeight": 25,
+"shootEffect": "smoke",
+"smokeEffect": "smoke",
+"ammoMultiplier": 5
+},},
+"requirements": [
+{ "item": "plumbys", "amount": 10},
+{ "item": "copper", "amount": 200},
+{ "item": "titanium", "amount": 50}
+],
+"category": "turret",
+"shootSound": "boom"
+}
